@@ -29,17 +29,16 @@
 }
 
 .nextButton {
-    position: relative;
-    left: 827px;
-    top: 20px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 30px;
     height: 36px;
-    display: inline-block;
     width: 66px;
 }
 .previousButton {
-    position: relative;
-    top: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10%;
     height: 36px;
-    display: inline-block;
     width: 66px;
 }
