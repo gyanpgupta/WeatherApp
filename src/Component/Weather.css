@@ -1,0 +1,45 @@
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+};
+
+.tableHeader { 
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+};
+
+.tableData {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.header {
+    font-size: 3.0em;
+    color: #666666;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+.nextButton {
+    position: relative;
+    left: 827px;
+    top: 20px;
+    height: 36px;
+    display: inline-block;
+    width: 66px;
+}
+.previousButton {
+    position: relative;
+    top: 20px;
+    height: 36px;
+    display: inline-block;
+    width: 66px;
+}
