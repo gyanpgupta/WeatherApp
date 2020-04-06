@@ -1,18 +1,13 @@
 
 .table {
     font-family: arial, sans-serif;
+    border: 1px solid black;
+    padding: 10px; 
     border-collapse: collapse;
     width: 100%;
 };
 
-.tableHeader { 
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-};
-
 .tableData {
-    border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
